@@ -18,14 +18,22 @@ header {
 	#66C;
 	padding: 10px;
 	text-align: center;
+	font-family: 'Julius Sans One', sans-serif;
 	
 }
 
+#content {
+		font-family: 'Antic', sans-serif;
+		}
+
+
+
 header h1 {
 	margin: 0;
+	font-family: 'Julius Sans One', sans-serif;
 }
 nav {
-	background-color: #0FC; 
+	background-image: "background img.jpg"; 
 	padding-top: 10px;
 	padding-bottom: 10px;
 	text-align: center;
@@ -48,17 +56,21 @@ nav li {
 nav {
 	float: left;
 	width: 30%;
+	font-family: 'Julius Sans One', sans-serif;
 
 }
 
 nav a {
 	display: block;
 	padding: 10px;
+	font-family: 'Julius Sans One', sans-serif;
 }
 
 #content {
 	float: right;
 	width: 60%;
+	font-family: 'Antic', sans-serif;
+	
 }
 footer {
 	clear: both;
