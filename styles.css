@@ -4,7 +4,7 @@
 @media screen {
 
 html {
-	background-color: #6FF;
+	background-color: black;
 }
 
 body {
@@ -31,6 +31,7 @@ header {
 header h1 {
 	margin: 0;
 	font-family: 'Julius Sans One', sans-serif;
+	color: white; 
 }
 nav {
 	background-image: "background img.jpg"; 
