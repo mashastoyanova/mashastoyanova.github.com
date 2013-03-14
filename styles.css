@@ -15,7 +15,7 @@ body {
 
 header {
 	background-color:
-	#66C;
+	black;
 	padding: 10px;
 	text-align: center;
 	font-family: 'Julius Sans One', sans-serif;
@@ -33,6 +33,11 @@ header h1 {
 	margin: 0;
 	font-family: 'Julius Sans One', sans-serif;
 	color: white; 
+}
+
+header h2 {
+
+color: white;
 }
 nav {
 	
