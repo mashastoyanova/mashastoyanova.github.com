@@ -4,7 +4,7 @@
 @media screen {
 
 html {
-	background-color: black;
+	background-color: #918D8F;
 }
 
 body {
@@ -14,8 +14,7 @@ body {
 	
 
 header {
-	background-color:
-	black;
+	background-color: #7D7779;
 	padding: 10px;
 	text-align: center;
 	font-family: 'Julius Sans One', sans-serif;
