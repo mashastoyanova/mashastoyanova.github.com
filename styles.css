@@ -35,6 +35,7 @@ header h1 {
 	margin: 0;
 	font-family: 'Julius Sans One', sans-serif;
 	color: white; 
+	letter-spacing: 1px;
 }
 
 header h2 {
@@ -56,6 +57,24 @@ nav li {
 	display: inline;
 	padding: 10px;
 }
+
+
+nav a:link {
+color: orange;
+
+}    
+
+nav a:visited {
+color: brown;
+} 
+
+nav a:hover {
+color:red; 
+}   
+
+nav a:active {
+color: green;
+} 
 footer {
 	clear: both;
 	
@@ -84,9 +103,9 @@ nav a {
 	width: 70%;
 	font-family: 'Antic', sans-serif;
 text-align: justify;
-font-size: 15px;
-line-height: 25px;
-
+font-size: 20px;
+line-height: 30px;
+letter-spacing: 1px;
 }
 
 img {
