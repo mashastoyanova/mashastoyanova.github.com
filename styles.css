@@ -4,29 +4,42 @@
 @media screen {
 
 html {
-	background-color: #918D8F;
+	background-color: white;
 }
 
 body {
 	background-color: white;
-	padding: 20px;
-	}
+	padding: 0px;
+	margin: auto;
 	
+	
+	}
+
 
 header {
 	background-color: #7D7779;
 	padding: 20px;
 	text-align: center;
 	font-family: 'Julius Sans One', sans-serif;
-	
+
 }
 
 #content {
 		font-family: 'Antic', sans-serif;
-		
+		margin-left: 10px;
+		margin-right: 10px;
+		text-align: justify;
+		font-weight: lighter;
+		font-size: 20px;
+		line-height: 30px;
+		letter-spacing: 1px;
 		}
 
+img {
 
+		max-width: 100%;
+		}
+		
         figcaption {
                 text-align:center;
         }
@@ -43,11 +56,18 @@ header h2 {
 		color: white;
 }
 nav {
-	
+
 	padding-top: 10px;
 	padding-bottom: 10px;
 	text-align: center;
 		}
+		
+		nav a {
+	display: block;
+	padding: 10px;
+	font-family: 'Julius Sans One', sans-serif;
+}
+
 nav ul {
 	list-style: none;
 	padding-left: 0;
@@ -78,17 +98,26 @@ color: yellow;
 
 blockquote {
 
-		font-family:  'Petit Formal Script', cursive;
+		font-family: 'La Belle Aurore', cursive;
 		}
+		
 footer {
-	clear: both;
-	
+	background-color: #7D7779;
+	color: white;
+	padding: 10px;
+	font-family: 'Julius Sans One', sans-serif;
+
+
 }
 }
 /*
  * 500px and wider
  */
 @media screen and (min-width: 500px) {
+
+html {
+	background-color: #918D8F;
+}
 
 nav {
 	float: left;
@@ -103,6 +132,13 @@ nav a {
 	font-family: 'Julius Sans One', sans-serif;
 }
 
+body {
+	background-color: white;
+	padding: 20px;
+	margin: 20px;
+	border: solid 7px #F2844E;
+	}
+	
 #content {
 	float: right;
 	width: 70%;
@@ -118,14 +154,7 @@ img {
 		max-width: 100%;
 		}
 
-footer {
-	background-color: #7D7779;
-	color: white;
-	padding: 10px;
-	font-family: 'Julius Sans One', sans-serif;
-	
-	
-}
+
 
 }
 /*
