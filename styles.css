@@ -121,7 +121,7 @@ html {
 
 nav {
 	float: left;
-	width: 30%;
+	width: 28%;
 	font-family: 'Julius Sans One', sans-serif;
 
 }
@@ -153,7 +153,15 @@ img {
 
 		max-width: 100%;
 		}
+		
+footer {
+	background-color: #7D7779;
+	color: white;
+	padding: 10px;
+	font-family: 'Julius Sans One', sans-serif;
 
+clear:both;
+}
 
 
 }
