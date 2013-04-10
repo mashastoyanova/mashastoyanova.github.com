@@ -58,7 +58,15 @@ header h1 {
 	font-weight: lighter;
 }
 
-
+header h2 {
+	margin: 0;
+	font-family: 'EB Garamond', serif;
+	color: #ede5be; 
+	letter-spacing: 1px;
+	font-size: 40px;
+	font-weight: lighter;
+	}
+	
 nav {
 
 	padding-top: 1px;
