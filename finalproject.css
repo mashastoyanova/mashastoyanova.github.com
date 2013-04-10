@@ -1,0 +1,222 @@
+/*
+ * Default styles
+ */
+@media screen {
+
+html {
+	background-color: white;
+}
+
+body {
+	background-color: white;
+	padding: 0px;
+	margin: auto;
+	
+	
+	}
+
+
+header {
+	background-color: #bd9a8d;
+	padding: 20px;
+	text-align: center;
+	font-family: 'EB Garamond', serif;
+	font-weight: lighter;
+
+}
+
+#content {
+	font-family: 'EB Garamond', serif;
+		margin-left: 10px;
+		margin-right: 10px;
+		text-align: justify;
+		font-weight: lighter;
+		font-size: 10px;
+		line-height: 25px;
+		letter-spacing: 1px;
+		color: #805140;
+		}
+
+img {
+
+		max-width: 100%;
+		}
+		
+        figcaption {
+                text-align:center;
+                font-family: 'EB Garamond', serif;
+                color: #805140;
+                
+        }
+
+header h1 {
+	margin: 0;
+	font-family: 'EB Garamond', serif;
+	color: #ede5be; 
+	letter-spacing: 1px;
+	font-size: 70px;
+	font-weight: lighter;
+}
+
+
+nav {
+
+	padding-top: 1px;
+	padding-bottom: 1px;
+	text-align: center;
+	background-color: #a59167;
+	color: #ede5be;
+		}
+		
+		nav a {
+	display: block;
+	padding: 10px;
+	font-family: 'EB Garamond', serif;
+	
+}
+
+nav ul {
+	list-style: none;
+	padding-left: 0;
+}
+
+nav li {
+	display: inline;
+	padding: 10px;
+}
+
+
+nav a:link {
+color: orange;
+
+}    
+
+nav a:visited {
+color: brown;
+} 
+
+nav a:hover {
+color:red; 
+}   
+
+nav a:active {
+color: yellow;
+} 
+
+blockquote {
+
+		font-family: 'EB Garamond', serif;
+		}
+		
+footer {
+	background-color: #a59167;
+	color: #ede5be;
+	padding: 10px;
+	font-family: 'EB Garamond', serif;
+
+clear:both;
+}
+}
+/*
+ * 500px and wider
+ */
+@media screen and (min-width: 500px) {
+
+html {
+	background-color: white;
+}
+
+header {
+	background-color: #bd9a8d;
+	padding: 20px;
+	text-align: center;
+	font-family: 'EB Garamond', serif;
+	font-weight: lighter;
+
+}
+
+nav {
+	
+	font-family: 'EB Garamond', serif;
+	color: #ede5be;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	text-align: center;
+	background-color: #a59167;
+ font-size: 20px;
+
+}
+
+nav a {
+	display: block;
+	padding: 10px;
+	font-family: 'EB Garamond', serif;
+	float: right;
+}
+
+
+body {
+	background-color: #ede5be;
+	padding: 0px;
+	margin: auto;
+	}
+	
+
+	img {
+
+		max-width: 100%;
+		float: left;
+		}
+		
+		 figcaption {
+                text-align: center;
+                font-family: 'EB Garamond', serif;
+                color: #805140;
+                display:table-row;
+			max-width: 30%;
+                
+        }
+	
+#content {
+	
+	float: right;
+	width: 50%;
+	font-family: 'EB Garamond', serif;
+text-align: justify;
+font-size: 17px;
+line-height: 25px;
+letter-spacing: 1px;
+margin-right: 20px;
+}
+
+
+		
+footer {
+	background-color: #a59167;
+	color: #ede5be;
+	padding: 10px;
+font-family: 'EB Garamond', serif;
+
+clear:both;
+}
+
+
+}
+/*
+ * 768px and wider
+ */
+@media screen and (min-width: 768px) {
+
+
+
+}
+
+
+/*
+ * Print styles
+ */
+@media print {
+
+
+
+}
