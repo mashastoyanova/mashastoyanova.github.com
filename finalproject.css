@@ -88,20 +88,24 @@ nav li {
 
 
 nav a:link {
-color: orange;
+color: #ede5be;
+text-decoration:none;
 
 }    
 
 nav a:visited {
-color: brown;
+color: #ede5be;
+text-decoration:none;
 } 
 
 nav a:hover {
-color:red; 
+color: #758ca8;
+text-decoration:none;
 }   
 
 nav a:active {
-color: yellow;
+color: #758ca8;
+text-decoration:none;
 } 
 
 blockquote {
