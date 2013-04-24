@@ -165,11 +165,20 @@ header h1 {
 	font-weight: lighter;
 }
 
+h2 {
+	margin: 0;
+	font-family: 'EB Garamond', serif;
+	letter-spacing: 1px;
+	font-size: 40px;
+	font-weight: lighter;
+	text-align: center;
+	}
+
 nav {
 	
 	font-family: 'EB Garamond', serif;
 	color: #ede5be;
-	padding-top: 5px;
+	padding-top: 1px;
 	padding-bottom: 5px;
 margin: 0;
 	text-align: center;
@@ -209,7 +218,7 @@ text-decoration:none;
 } 
 
 nav a:hover {
-color: #758ca8;
+color: #0b4761;
 text-decoration:none;
 }   
 
@@ -252,12 +261,27 @@ letter-spacing: 1px;
 margin-right: 50px;
 }
 
+#gallery {
+
+display: center;
+width: 70%;
+font-family: 'EB Garamond', serif;
+text-align: justify;
+font-size: 25px;
+line-height: 30px;
+letter-spacing: 1px;
+margin-right: 50px;
+	margin-left: 70px;
+		color: #805140;
+}
+
 #column1 {
 float: left;
 width: 35%;
 margin: 50px;
 padding: 30px;
 }
+
 
 .clear {
 clear: both;
