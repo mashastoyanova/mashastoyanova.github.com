@@ -296,8 +296,28 @@ margin-right: 50px;
 		color: #805140;
 }
 
+#content2 {
+	float: left;
+	width: 40%;
+	font-family: 'EB Garamond', serif;
+text-align: justify;
+font-size: 25px;
+line-height: 30px;
+letter-spacing: 1px;
+margin-right: 50px;
+margin-left: 50px;
+color: #805140;
+}
+
 #column1 {
 float: left;
+width: 35%;
+margin: 50px;
+padding: 30px;
+}
+
+#column2 {
+float: right;
 width: 35%;
 margin: 50px;
 padding: 30px;
