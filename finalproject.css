@@ -273,7 +273,7 @@ margin-right: 50px;
 	
 #content1 {
 	float: right;
-	width: 70%;
+	width: 90%;
 	font-family: 'EB Garamond', serif;
 text-align: justify;
 font-size: 25px;
@@ -309,10 +309,16 @@ clear: both;
 }
 
 div.figure-small {
-  float: right;
+
   width: 30%;
 
+
 }
+
+a.icon {
+ width: 30%;
+ }
+
 
 div.figure {
   float: right;
@@ -324,10 +330,6 @@ div.figure p {
   font-style: italic;
   font-size: smaller;
   text-indent: 0;
-}
-.fullscreen {
-font-family: 'EB Garamond', serif;
-text-decoration: none;
 }
 
 figure {
@@ -474,6 +476,17 @@ clear:both;
 .image-box:hover {border-color:#bbb}
 .image-box:hover .image-container {margin-top:-160px}
 .image-details .more:hover {background-color:#758ca8}
+
+
+a.fullscreen {
+color: #758ca8;
+text-align: center;
+font-size: 20px;
+}
+a.fullscreen:hover {
+color: #0b4761;
+text-decoration:none;
+}   
 
 .hot-container p { margin-top: 10px; }
 a { text-decoration: none; margin: 20px 10px; }
