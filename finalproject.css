@@ -83,6 +83,11 @@ nav {
 	
 }
 
+a {
+color: #ede5be; 
+	text-shadow: 0 1px 0 rgba(0,0,0,0.5);
+	}
+
 nav ul {
 	list-style: none;
 	padding-left: 0;
@@ -98,6 +103,7 @@ nav li {
 nav a:link {
 color: #ede5be;
 text-decoration:none;
+text-shadow: none;
 
 
 }    
@@ -118,6 +124,8 @@ nav a:active {
 color: #758ca8;
 text-decoration:none;
 } 
+
+
 
 blockquote {
 
@@ -157,6 +165,9 @@ header {
 	font-weight: lighter;
 
 }
+
+
+	
 header h1 {
 	margin: 0;
 	font-family: 'EB Garamond', serif;
@@ -170,9 +181,10 @@ h2 {
 	margin: 0;
 	font-family: 'EB Garamond', serif;
 	letter-spacing: 1px;
-	font-size: 40px;
+	font-size: 30px;
 	font-weight: lighter;
 	text-align: center;
+	padding: 30px;
 	}
 
 nav {
@@ -228,11 +240,6 @@ color: #758ca8;
 text-decoration:none;
 } 
 
-body {
-	background-color: #ede5be;
-	padding: 0px;
-	margin: auto;
-	}
 	
 
 	img {
@@ -264,10 +271,11 @@ blockquote {
 	width: 45%;
 	font-family: 'EB Garamond', serif;
 text-align: justify;
-font-size: 25px;
-line-height: 30px;
+font-size: 18px;
+line-height: 20px;
 letter-spacing: 1px;
 margin-right: 50px;
+font-weight: lighter;
 }
 
 	
@@ -276,20 +284,21 @@ margin-right: 50px;
 	width: 90%;
 	font-family: 'EB Garamond', serif;
 text-align: justify;
-font-size: 25px;
-line-height: 30px;
+font-size: 18px;
+line-height: 20px;
 letter-spacing: 1px;
 margin-right: 50px;
 margin-left: 50px;
 color: #805140;
+
 }
 #gallery {
 
 width: 70%;
 font-family: 'EB Garamond', serif;
 text-align: justify;
-font-size: 25px;
-line-height: 30px;
+font-size: 18px;
+line-height: 20px;
 letter-spacing: 1px;
 margin-right: 50px;
 	margin-left: 70px;
@@ -301,8 +310,8 @@ margin-right: 50px;
 	width: 40%;
 	font-family: 'EB Garamond', serif;
 text-align: justify;
-font-size: 25px;
-line-height: 30px;
+font-size: 18px;
+line-height: 20px;
 letter-spacing: 1px;
 margin-right: 50px;
 margin-left: 50px;
@@ -314,6 +323,7 @@ float: left;
 width: 35%;
 margin: 50px;
 padding: 30px;
+color: #805140;
 }
 
 #column2 {
@@ -330,14 +340,20 @@ clear: both;
 
 div.figure-small {
 
-  width: 30%;
-
+  width: 70%;
+float: right;
 
 }
 
 a.icon {
- width: 30%;
+ width: 40%;
  }
+ 
+ a {
+ color: #ede5be; 
+	
+	}
+ 
 
 
 div.figure {
@@ -355,9 +371,10 @@ div.figure p {
 figure {
   display: block;
   position: relative;
-  float: left;
+ 
   overflow: hidden;
   margin: 0 20px 20px 0;
+  max-width: 100%;
 }
 
 figcaption {
