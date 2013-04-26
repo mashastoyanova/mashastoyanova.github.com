@@ -281,14 +281,13 @@ font-weight: lighter;
 	
 #content1 {
 	float: right;
-	width: 90%;
+	width: 70%;
 	font-family: 'EB Garamond', serif;
 text-align: justify;
 font-size: 18px;
 line-height: 20px;
 letter-spacing: 1px;
-margin-right: 50px;
-margin-left: 50px;
+margin: auto;
 color: #805140;
 
 }
@@ -345,9 +344,6 @@ float: right;
 
 }
 
-a.icon {
- width: 40%;
- }
  
  a {
  color: #ede5be; 
