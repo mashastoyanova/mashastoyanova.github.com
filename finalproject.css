@@ -291,6 +291,8 @@ margin-left: 100px;
 margin-right: 100px;
 padding-right: 100px;
 color: #805140;
+font-weight: lighter;
+
 
 }
 #gallery {
@@ -317,6 +319,7 @@ letter-spacing: 1px;
 margin-right: 50px;
 margin-left: 50px;
 color: #805140;
+font-weight: lighter;
 }
 
 #column1 {
@@ -325,6 +328,7 @@ width: 35%;
 margin: 50px;
 padding: 30px;
 color: #805140;
+font-weight: lighter;
 }
 
 #column2 {
@@ -332,6 +336,7 @@ float: right;
 width: 35%;
 margin: 50px;
 padding: 30px;
+font-weight: lighter;
 }
 
 
@@ -440,18 +445,111 @@ font-family: 'EB Garamond', serif;
 clear:both;
 }
 
+#container {
+    width: 1000px;
+    margin: 50px auto;
+    padding-top: 50px;
+    padding-left: 30px;
+}
+
+/* -- start page curl css -- */
+/* original page curl styling by Matt Hamm, Cameron Moll and Nicolas Gallagher from http://www.matthamm.com/box-shadow-curl.html */
+
+ul.gallery {
+    position: relative;
+    z-index: 1; /* prevent shadows falling behind containers with backgrounds */
+    overflow: visible;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul.gallery li {
+    position: relative;
+    float: left;
+    width: 300px;
+    height: 200px;
+    padding: 0;
+    border: 1px solid #efefef;
+    margin: 0 30px 30px 0;
+    background: #fff;
+    -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.06) inset;
+    -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.06) inset;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.06) inset;
+}
+
+ul.gallery li:before, ul.gallery li:after {
+    content: '';
+    z-index: -1;
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    width: 70%;
+    max-width: 300px; /* avoid rotation causing ugly appearance at large container widths */
+    height: 55%;
+    -webkit-box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    -webkit-transform: skew(-20deg) rotate(-8deg);
+    -moz-transform: skew(-20deg) rotate(-8deg);
+    -ms-transform: skew(-20deg) rotate(-8deg);
+    -o-transform: skew(-20deg) rotate(-8deg);
+    transform: skew(-20deg) rotate(-8deg);
+}
+
+ul.gallery li:after {
+    left: auto;
+    right: 10px;
+    -webkit-transform: skew(20deg) rotate(8deg);
+    -moz-transform: skew(20deg) rotate(8deg);
+    -ms-transform: skew(20deg) rotate(8deg);
+    -o-transform: skew(20deg) rotate(8deg);
+    transform: skew(20deg) rotate(8deg);
+}
+
+/* -- end page curl css -- */
+
+ul.gallery li:hover {
+    border: 1px solid rgba(0, 127, 255, 0.15);
+    -webkit-box-shadow: 0 2px 8px rgba(0, 127, 255, 0.27), 0 0 40px rgba(0, 127, 255, 0.27) inset;
+    -moz-box-shadow: 0 2px 8px rgba(0, 127, 255, 0.27), 0 0 40px rgba(0, 127, 255, 0.27) inset;
+    box-shadow: 0 2px 8px rgba(0, 127, 255, 0.27), 0 0 40px rgba(0, 127, 255, 0.27) inset;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+ul.gallery li img {
+    max-width: 100%;
+    padding: 0;
+    opacity:0.;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)"; /* IE8 hack */
+    filter: allpha(opacity = 30); /* IE5-7 hack */
+}
+
+ul.gallery li img:hover {
+    opacity:0.7;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)"; /* IE8 hack */
+    filter: allpha(opacity = 70); /* IE5-7 hack */
+    -webkit-transition: opacity 0.3s ease-in-out;
+    -moz-transition: opacity 0.3s ease-in-out;
+    -o-transition: opacity 0.3s ease-in-out;
+    transition: opacity 0.3s ease-in-out;
+}
 
 
 .image-box-wrapper {
   width:642px;
   margin:50px auto;
+  padding-top: 70px;
 }
 
 .image-box {
   width:210px;
   height:210px;
   overflow:hidden;
-  background-color:white;
+  background-color: #ede5be;
   border:1px solid #ccc;
   float:left;
   margin:1px 1px;
@@ -497,7 +595,7 @@ clear:both;
 }
 
 .image-details .more {
-  color:white;
+  color: white;
   text-decoration:none;
   display:block;
   text-align:center;
