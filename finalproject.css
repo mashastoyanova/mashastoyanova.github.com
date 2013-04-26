@@ -158,8 +158,8 @@ body {
 	
 	}
 header {
-	background-color: #bd9a8d;
-	padding: 10px;
+	background-color: #61574d; /*4a3d2c; /*442e07/*758ca8*/; /*#bd9a8d;*/
+	padding: 20px;
 	text-align: center;
 	font-family: 'EB Garamond', serif;
 	font-weight: lighter;
@@ -170,11 +170,11 @@ header {
 	
 header h1 {
 	margin: 0;
-	font-family: 'EB Garamond', serif;
-	color: #ede5be; 
+	font-family: poiret-one, serif;
+	color: #ede5be;
 	letter-spacing: 1px;
 	font-size: 70px;
-	font-weight: lighter;
+	/*font-weight: bold;*/
 }
 
 h2 {
@@ -189,7 +189,7 @@ h2 {
 
 nav {
 	
-	font-family: 'EB Garamond', serif;
+	font-family: poiret-one, serif;
 	color: #ede5be;
 	padding-top: 1px;
 	padding-bottom: 5px;
@@ -209,8 +209,10 @@ nav ul {
 nav a {
 	display: block;
 	padding: 0;
-	font-family: 'EB Garamond', serif;
+	font-family: poiret-one, serif;
 	float: right;
+	/*font-weight: bold;*/
+	 font-size: 25px;
 }
 
 nav li {
