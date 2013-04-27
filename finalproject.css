@@ -278,11 +278,19 @@ line-height: 20px;
 letter-spacing: 1px;
 margin-right: 50px;
 margin-left: -50px;
-padding-right: 50px;
+padding-right: 80px;
 color: #252320;
 font-weight: lighter;
 }
 
+#column2 {
+float: right;
+width: 35%;
+margin-right: 50px;
+margin-left: -50px;
+padding-right: 80px;
+font-weight: lighter;
+}
 	
 #content1 {
 	float: right;
@@ -321,8 +329,8 @@ text-align: justify;
 font-size: 18px;
 line-height: 20px;
 letter-spacing: 1px;
-margin-right: 50px;
-margin-left: 50px;
+margin-right: -50px;
+padding-left: 100px;
 color: #252320;
 font-weight: lighter;
 }
@@ -337,13 +345,7 @@ color: #805140;
 font-weight: lighter;
 }
 
-#column2 {
-float: right;
-width: 35%;
-margin: 50px;
-padding: 30px;
-font-weight: lighter;
-}
+
 
 
 .clear {
