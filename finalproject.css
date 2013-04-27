@@ -17,7 +17,7 @@ body {
 
 
 header {
-	background-color: #bd9a8d;
+	background-color: #61574d; /*#bd9a8d;*/
 	padding: 20px;
 	text-align: center;
 	font-family: poiret-one, serif;
@@ -32,12 +32,24 @@ header {
 		margin-right: 10px;
 		text-align: justify;
 		font-weight: lighter;
-		font-size: 20px;
-		line-height: 25px;
+		font-size: 18px;
+		line-height: 2opx;
 		letter-spacing: 1px;
 		color: #252320;
 		}
+		
+#content2 {
 
+	font-family: marvel, serif;
+text-align: justify;
+font-size: 18px;
+line-height: 20px;
+letter-spacing: 1px;
+margin-left: 10px;
+margin-right: 10px;
+color: #252320;
+font-weight: lighter;
+}
 img {
 
 		max-width: 100%;
@@ -69,7 +81,7 @@ h2 {
 	
 nav {
 
-	padding-top: 0;
+	padding-top: 1px;
 	padding-bottom: 0;
 	text-align: center;
 	background-color: #a59167;
@@ -283,6 +295,8 @@ color: #252320;
 font-weight: lighter;
 }
 
+
+
 #column2 {
 float: right;
 width: 35%;
@@ -338,9 +352,10 @@ font-weight: lighter;
 #column1 {
 float: left;
 width: 35%;
-margin-right: -50px;
-padding-left: 100px;
+margin-right: -70px;
+padding-left: 150px;
 padding-top: 50px;
+padding-right: -30px;
 color: #805140;
 font-weight: lighter;
 }
