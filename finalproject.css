@@ -20,14 +20,14 @@ header {
 	background-color: #bd9a8d;
 	padding: 20px;
 	text-align: center;
-	font-family: 'EB Garamond', serif;
+	font-family: poiret-one, serif;
 	font-weight: lighter;
 	text-shadow: 0 1px 0 rgba(0,0,0,0.5);
 
 }
 
 #content {
-	font-family: 'EB Garamond', serif;
+	font-family: marvel, serif;
 		margin-left: 10px;
 		margin-right: 10px;
 		text-align: justify;
@@ -45,14 +45,14 @@ img {
 		
         figcaption {
                 text-align:center;
-                font-family: 'EB Garamond', serif;
+                font-family: marvel, serif;
                 color: #805140;
                 
         }
 
 header h1 {
 	margin: 0;
-	font-family: 'EB Garamond', serif;
+	font-family: poiret-one, serif;
 	color: #ede5be; 
 	letter-spacing: 1px;
 	font-size: 50px;
@@ -61,7 +61,7 @@ header h1 {
 
 h2 {
 	margin: 0;
-	font-family: 'EB Garamond', serif;
+	font-family: marvel, serif;
 	letter-spacing: 1px;
 	font-size: 40px;
 	font-weight: lighter;
@@ -79,7 +79,7 @@ nav {
 		nav a {
 	display: block;
 	padding: 0;
-	font-family: 'EB Garamond', serif;
+	font-family: poiret-one, serif;
 	
 }
 
@@ -129,7 +129,7 @@ text-decoration:none;
 
 blockquote {
 
-		font-family: 'EB Garamond', serif;
+		font-family: la-belle-aurore, serif;
 		color: #0b4761;
 		}
 		
@@ -137,7 +137,7 @@ footer {
 	background-color: #a59167;
 	color: #ede5be;
 	padding: 10px;
-	font-family: 'EB Garamond', serif;
+	font-family: poiret-one, serif;
 
 clear:both;
 }
@@ -161,8 +161,8 @@ header {
 	background-color: #61574d; /*4a3d2c; /*442e07/*758ca8*/; /*#bd9a8d;*/
 	padding: 20px;
 	text-align: center;
-	font-family: 'EB Garamond', serif;
-	font-weight: lighter;
+	font-family: poiret-one, serif;
+	/*font-weight: lighter;*/
 
 }
 
@@ -179,7 +179,7 @@ header h1 {
 
 h2 {
 	margin: 0;
-	font-family: 'EB Garamond', serif;
+	font-family: poiret-one, serif;
 	letter-spacing: 1px;
 	font-size: 30px;
 	font-weight: lighter;
@@ -271,12 +271,13 @@ blockquote {
 	
 	float: right;
 	width: 45%;
-	font-family: 'EB Garamond', serif;
+	font-family: marvel, serif;
 text-align: justify;
 font-size: 18px;
 line-height: 20px;
 letter-spacing: 1px;
 margin-right: 50px;
+color: #252320;
 font-weight: lighter;
 }
 
@@ -284,7 +285,7 @@ font-weight: lighter;
 #content1 {
 	float: right;
 	width: 70%;
-	font-family: 'EB Garamond', serif;
+	font-family: marvel, serif;
 text-align: justify;
 font-size: 18px;
 line-height: 20px;
@@ -300,7 +301,7 @@ font-weight: lighter;
 #gallery {
 
 width: 90%;
-font-family: 'EB Garamond', serif;
+font-family: marvel, serif;
 text-align: justify;
 font-size: 18px;
 line-height: 20px;
@@ -313,7 +314,7 @@ margin-right: 50px;
 #content2 {
 	float: left;
 	width: 40%;
-	font-family: 'EB Garamond', serif;
+	font-family: marvel, serif;
 text-align: justify;
 font-size: 18px;
 line-height: 20px;
@@ -363,7 +364,7 @@ float: right;
 
 div.figure {
   float: right;
-  max-width: 100%;
+  width: 80%;
 
 }
 div.figure p {
@@ -387,7 +388,7 @@ figcaption {
   background: #805140;
   background: rgba(117, 140, 168, 0.75);
   
-  font-family: 'EB Garamond', serif;
+  font-family: marvel, serif;
                 color: #ede5be;
   padding: 10px 20px;
   opacity: 0;
@@ -442,7 +443,7 @@ footer {
 	background-color: #a59167;
 	color: #ede5be;
 	padding: 10px;
-font-family: 'EB Garamond', serif;
+font-family: poiret-one, serif;
 
 clear:both;
 }
