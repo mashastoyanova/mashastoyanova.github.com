@@ -158,7 +158,7 @@ body {
 	
 	}
 header {
-	background-color: #61574d; /*4a3d2c; /*442e07/*758ca8*/; /*#bd9a8d;*/
+	background-color: #61574d; /*4a3d2c; /*442e07/*758ca8*/; */
 	padding: 20px;
 	text-align: center;
 	font-family: poiret-one, serif;
@@ -367,7 +367,7 @@ float: right;
 
 div.figure {
   float: right;
-  width: 80%;
+  max-width: 100%;
 
 }
 div.figure p {
