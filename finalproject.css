@@ -35,7 +35,7 @@ header {
 		font-size: 20px;
 		line-height: 25px;
 		letter-spacing: 1px;
-		color: #805140;
+		color: #252320;
 		}
 
 img {
@@ -46,7 +46,7 @@ img {
         figcaption {
                 text-align:center;
                 font-family: marvel, serif;
-                color: #805140;
+                color: #252320;
                 
         }
 
@@ -277,6 +277,8 @@ font-size: 18px;
 line-height: 20px;
 letter-spacing: 1px;
 margin-right: 50px;
+margin-left: -50px;
+padding-right: 50px;
 color: #252320;
 font-weight: lighter;
 }
@@ -293,7 +295,7 @@ letter-spacing: 1px;
 margin-left: 100px;
 margin-right: 100px;
 padding-right: 100px;
-color: #805140;
+color: #252320;
 font-weight: lighter;
 
 
@@ -308,7 +310,7 @@ line-height: 20px;
 letter-spacing: 1px;
 margin-right: 50px;
 	margin-left: 70px;
-		color: #805140;
+		color: #252320;
 }
 
 #content2 {
@@ -321,15 +323,16 @@ line-height: 20px;
 letter-spacing: 1px;
 margin-right: 50px;
 margin-left: 50px;
-color: #805140;
+color: #252320;
 font-weight: lighter;
 }
 
 #column1 {
 float: left;
 width: 35%;
-margin: 50px;
-padding: 30px;
+margin-right: -50px;
+padding-left: 100px;
+padding-top: 50px;
 color: #805140;
 font-weight: lighter;
 }
