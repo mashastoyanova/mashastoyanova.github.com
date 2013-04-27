@@ -179,7 +179,7 @@ header h1 {
 
 h2 {
 	margin: 0;
-	font-family: poiret-one, serif;
+	font-family: marvel, serif;
 	letter-spacing: 1px;
 	font-size: 30px;
 	font-weight: lighter;
@@ -558,8 +558,9 @@ ul.gallery li img:hover {
   background-color: #ede5be;
   border:1px solid #ccc;
   float:left;
+  /*text-align: center;*/
   margin:1px 1px;
-  font:normal normal 12px/1.4 herculanum;
+  font:normal normal 18px/1.4 marvel, serif;
   color: #333;
 }
 
