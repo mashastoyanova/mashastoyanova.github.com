@@ -355,7 +355,7 @@ blockquote {
 #content {
 	
 	float: right;
-	width: 45%;
+	width: 40%;
 	font-family: marvel, serif;
 text-align: justify;
 font-size: 18px;
@@ -424,7 +424,7 @@ font-weight: lighter;
 
 #column1 {
 float: left;
-width: 35%;
+width: 45%;
 margin-right: -70px;
 padding-left: 150px;
 padding-top: 50px;
@@ -730,7 +730,7 @@ a { text-decoration: none; margin: 20px 10px; }
 }
 
 a.btn {
-	display: table;
+	display: table/*inline-block*/;
 	color: #ede5be;
 	background-color: #a9925d;
 	text-transform: uppercase;
