@@ -233,7 +233,7 @@ clear:both;
 @media screen and (min-width: 500px) {
 
 html {
-	background-color: white;
+	background-color: #f5f3e9; /*#eeebdb;*/
 }
 body {
 	background-color: #ede5be;
