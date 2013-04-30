@@ -249,6 +249,7 @@ header {
 	padding: 20px;
 	text-align: center;
 	font-family: poiret-one, serif;
+	text-shadow: 0 1px 0 rgba(0,0,0,0.5);
 	 /*border: solid 1px #ede5be;*/
 	/*font-weight: lighter;*/
 
@@ -297,7 +298,7 @@ nav ul {
 }
 
 nav a {
-	width: 13%;
+	width: 100px;
 	display: block;
 	padding: 0;
 	font-family: poiret-one, serif;
@@ -562,7 +563,7 @@ clear:both;
 }
 
 #container {
-    width: 1000px;
+    width: 900px;
     margin: 50px auto;
     padding-top: 50px;
     padding-left: 30px;
@@ -583,8 +584,8 @@ ul.gallery {
 ul.gallery li {
     position: relative;
     float: left;
-    width: 300px;
-    height: 200px;
+    width: 150px;
+    height: 100px;
     padding: 0;
     border: 1px solid #efefef;
     margin: 0 30px 30px 0;
