@@ -386,6 +386,7 @@ font-weight: lighter;
 background-color: #f2edd2;/*#f3eed7;*/ /*#f3f1e6;*/
 padding: 20px;
 border: solid 1px #bd9a8d;
+margin-bottom: 30px
 }
 
 
@@ -566,7 +567,7 @@ clear:both;
     width: 900px;
     margin: 50px auto;
     padding-top: 50px;
-    padding-left: 30px;
+    padding-left: 130px;
 }
 
 /* -- start page curl css -- */
@@ -821,21 +822,22 @@ color: #0b4761;
 text-decoration:none;
 }   
 
-.hot-container p { margin-top: 10px; }
+.hot-container p { margin-top: 0px;  }
 a { text-decoration: none; margin: 20px 10px; }
 
 .hot-container {
 
 	min-height: 100px;
-	margin-top: 100px;
-	width: 100%;
+	margin-top: 0px;
+	width: 200px;
 	text-align: center;
+	margin-left: 50px;
 }
 
 a.btn {
 	display: table/*inline-block*/;
 	color: #ede5be;
-	background-color: #a9925d;
+	background-color:  #bd9a8d; /*#a9925d;*/
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	font-size: 18px;
@@ -862,7 +864,7 @@ a.btn {
 /* blue button */
 
 a.btn.btn-blue {
-	background-color: #a9925d;
+	background-color: ##bd9a8d; /*a9925d;*/
 	border-color: rgba(0,0,0,0.3);
 	text-shadow: 0 1px 0 rgba(0,0,0,0.5);
 	color: ede5be;
@@ -881,7 +883,7 @@ a.btn.btn-blue {
 /* red button */
 
 a.btn.btn-red {
-	background-color: #a9925d;
+	background-color: ##bd9a8d; /*#a9925d;*/
 	border-color: rgba(0,0,0,0.3);
 	text-shadow: 0 1px 0 rgba(0,0,0,0.5);
 	color: #ede5be;
@@ -910,8 +912,8 @@ a.btn.btn-red {
 	background: #ede5be;
 	border-bottom: 1px solid #FFFFFF;
 	cursor: pointer;
-	color: #758ca8;
-	font-family: poiret-one, serif;
+	color: #0b4761; /*#758ca8;*/
+	font-family: marvel, serif;
 	}
  
 .accordionContent {	
