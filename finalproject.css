@@ -496,6 +496,7 @@ padding-right: 10px;
 color: #805140;
 font-weight: lighter;
 font-family: marvel, serif;
+margin-bottom: 20px;
 }
 
 
@@ -513,6 +514,12 @@ padding-left: 10px;
 
 }
 
+div.figure-small2 {
+
+  max-width: 100%;
+float: left;
+
+}
  
  a {
  color: #ede5be; 
