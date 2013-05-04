@@ -460,6 +460,7 @@ font-weight: lighter;
 
 #gallery {
 
+clear:both;
 width: 90%;
 font-family: marvel, serif;
 text-align: justify;
