@@ -508,7 +508,8 @@ clear: both;
 div.figure-small {
 
   width: 30%;
-float: right;
+float: left;
+padding-left: 10px;
 
 }
 
