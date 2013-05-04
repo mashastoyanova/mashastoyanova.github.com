@@ -1,22 +1,3 @@
-$(document).ready(function() {
- 
-	//ACCORDION BUTTON ACTION	
-	$('div.accordionButton').click(function() {
-		$('div.accordionContent').slideUp('normal');	
-		$(this).next().slideDown('normal');
-	});
- 
-	//HIDE THE DIVS ON PAGE LOAD	
-	$("div.accordionContent").hide();
- 
-
-$('#image-slideshow').cycle({ 
-    fx:      'scrollRight', 
-    next:   '#image-slideshow', 
-    timeout:  0, 
-    });
-    
- });
 
 /*!
  * jQuery Cycle Plugin (with Transition Definitions)
@@ -1557,5 +1538,6 @@ $.fn.cycle.transitions.wipe = function($cont, $slides, opts) {
 	opts.animOut   = { left: 0 };
 };
 
-})(jQuery)
+})(jQuery);
+
 
