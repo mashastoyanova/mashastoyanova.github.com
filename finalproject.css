@@ -386,7 +386,8 @@ font-weight: lighter;
 background-color: #f2edd2;/*#f3eed7;*/ /*#f3f1e6;*/
 padding: 20px;
 border: solid 1px #bd9a8d;
-margin-bottom: 30px
+margin-bottom: 30px;
+margin-top: 30px;
 }
 
 #content1 {
