@@ -1,0 +1,86 @@
+html {
+	
+}
+
+body {
+	
+	padding: 0;
+	margin: auto;
+	
+	
+	}
+
+
+header {
+	background-color: #61574d; /*#bd9a8d;*/
+	padding: 20px;
+	text-align: center;
+	font-family: poiret-one, serif;
+	font-weight: lighter;
+	text-shadow: 0 1px 0 rgba(0,0,0,0.5);
+
+}
+header h1 {
+
+		color: white;
+		font-family: 'Inconsolata';
+}
+
+/*.cap-bot {
+		float: left;
+}
+
+
+figcaption {
+
+  position:relative;
+  font-family: marvel, serif;
+ color: #61574d;
+  font-family: 'Inconsolata';
+  max-width: 300px;
+  
+}
+*/
+
+
+
+
+.im-col-l{
+		max-width: 200px;
+		float: left;
+		
+}
+.im-col-r {
+		max-width: 150px;
+		float: right;
+		
+		}
+
+
+.img-left {
+		max-width: 100%;
+		padding: 40px 20px 40px 20px;
+		position: relative;
+		}
+figcaption {
+		color: grey;
+		font-family: 'Inconsolata';
+		text-align: center;
+		padding-left: 40px;
+}
+.content {
+	position: relative;
+	width: 95%;
+    max-width: 640px;
+	margin: 0 auto;
+
+}
+.content p{
+		font-family: 'Inconsolata';
+		color: #4e4e4e;;
+		text-align: justify;
+		font-size: 24px;
+		font-weight: lighter;
+		line-height: 40px;
+		
+}
