@@ -150,8 +150,9 @@ footer {
 	color: #ede5be;
 	padding: 10px;
 	font-family: poiret-one, serif;
-
-clear:both;
+	width: 950px;
+    clear:both;
+    margin: 0;
 }
 
 .image-box-wrapper {

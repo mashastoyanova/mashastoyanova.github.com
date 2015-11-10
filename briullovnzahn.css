@@ -48,6 +48,7 @@ figcaption {
 .im-col-l{
 		max-width: 200px;
 		float: left;
+	
 		
 }
 .im-col-r {
@@ -57,16 +58,20 @@ figcaption {
 		}
 
 
-.img-left {
+.img-le {
 		max-width: 100%;
-		padding: 40px 20px 40px 20px;
-		position: relative;
+		padding: 60px 20px 10px 60px;
+		
 		}
+		
+.img-ri {
+
+}
 figcaption {
 		color: grey;
 		font-family: 'Inconsolata';
 		text-align: center;
-		padding-left: 40px;
+		padding-left: 10px;
 }
 .content {
 	position: relative;
@@ -79,7 +84,7 @@ figcaption {
 		font-family: 'Inconsolata';
 		color: #4e4e4e;;
 		text-align: justify;
-		font-size: 24px;
+		font-size: 20px;
 		font-weight: lighter;
 		line-height: 40px;
 		
