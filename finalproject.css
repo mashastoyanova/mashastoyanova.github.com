@@ -233,14 +233,14 @@ clear:both;
 @media screen and (min-width: 500px) {
 
 html {
-	background-color: #f5f3e9; /*#eeebdb;*/
+	background-color: oldlace;/*#f5f3e9; /*#eeebdb;*/
 }
 body {
 	background-color: oldlace;
 	padding: 0;
 	margin: auto;
 	width: 950px;
-	/*border: solid 1px #bd9a8d;*/
+	border: solid 1px #bd9a8d;
 	
 	
 	}
@@ -250,7 +250,9 @@ header {
 	text-align: center;
 	font-family: poiret-one, serif;
 	text-shadow: 0 1px 0 rgba(0,0,0,0.5);
-	 /*border: solid 1px #ede5be;*/
+	width: device-width;
+
+	 border: solid 1px #ede5be;
 	/*font-weight: lighter;*/
 
 }
