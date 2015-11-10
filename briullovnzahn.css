@@ -1,23 +1,21 @@
-html {
-	
-}
+
 
 body {
 	
-	padding: 0;
-	margin: auto;
+		padding: 0;
+		margin: auto;
 	
 	
 	}
 
 
 header {
-	background-color: #61574d; /*#bd9a8d;*/
-	padding: 20px;
-	text-align: center;
-	font-family: poiret-one, serif;
-	font-weight: lighter;
-	text-shadow: 0 1px 0 rgba(0,0,0,0.5);
+		background-color: #61574d; /*#bd9a8d;*/
+		padding: 20px;
+		text-align: center;
+		font-family: poiret-one, serif;
+		font-weight: lighter;
+		text-shadow: 0 1px 0 rgba(0,0,0,0.5);
 
 }
 header h1 {
@@ -26,46 +24,35 @@ header h1 {
 		font-family: 'Inconsolata';
 }
 
-/*.cap-bot {
-		float: left;
+a {
+		text-decoration: none;
+		color: grey;
+		
 }
-
-
-figcaption {
-
-  position:relative;
-  font-family: marvel, serif;
- color: #61574d;
-  font-family: 'Inconsolata';
-  max-width: 300px;
-  
-}
-*/
-
-
 
 
 .im-col-l{
 		max-width: 200px;
 		float: left;
-	
+		padding-left: 60px;
 		
 }
 .im-col-r {
-		max-width: 150px;
+		max-width: 200px;
 		float: right;
-		
+		padding-right: 60px;
 		}
 
 
 .img-le {
 		max-width: 100%;
-		padding: 60px 20px 10px 60px;
 		
 		}
 		
 .img-ri {
-
+		max-width: 100%;
+		
+		
 }
 figcaption {
 		color: grey;
@@ -74,10 +61,10 @@ figcaption {
 		padding-left: 10px;
 }
 .content {
-	position: relative;
-	width: 95%;
-    max-width: 640px;
-	margin: 0 auto;
+		position: relative;
+		width: 95%;
+    	max-width: 640px;
+		margin: 0 auto;
 
 }
 .content p{
@@ -89,3 +76,54 @@ figcaption {
 		line-height: 40px;
 		
 }
+
+ul#navigation
+{
+	list-style-type: none;
+	margin: 0;
+	padding: .5em 0;
+	/*border-top: 1px solid #666;*/
+}
+
+ul#navigation li a
+{
+	display: block;
+	width: 5em;
+	color: white;
+	background-color: grey;
+	padding: .2em 0;
+	text-align: center;
+	text-decoration: none;
+	font-family: 'Inconsolata';
+	
+}
+
+ul#navigation li a:hover
+{
+	color: #FFF;
+	background-color: #69C;
+}
+
+ul#navigation .left { float: left; }
+ul#navigation .right { float: right; }
+
+footer {
+		height: 50px;
+		width: device-width;
+		background-color: grey;
+		border-top: 60px solid white;
+}
+
+footer p {
+		font-family: 'Inconsolata';
+		color:white;
+		padding-left: 40px;
+		padding-top: 10px;
+}
+
+
+
+
+
+
+
