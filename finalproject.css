@@ -236,11 +236,11 @@ html {
 	background-color: #f5f3e9; /*#eeebdb;*/
 }
 body {
-	background-color: #ede5be;
+	background-color: oldlace;
 	padding: 0;
 	margin: auto;
 	width: 950px;
-	border: solid 1px #bd9a8d;
+	/*border: solid 1px #bd9a8d;*/
 	
 	
 	}
@@ -383,9 +383,9 @@ margin-left: -50px;
 /*padding-right: 80px;*/
 color: #252320;
 font-weight: lighter;
-background-color: #f2edd2;/*#f3eed7;*/ /*#f3f1e6;*/
+/*background-color: linen; /*#f2edd2;/*#f3eed7;*/ /*#f3f1e6;*/
 padding: 20px;
-border: solid 1px #bd9a8d;
+/*border: solid 1px #bd9a8d;*/
 margin-bottom: 30px;
 margin-top: 30px;
 }
