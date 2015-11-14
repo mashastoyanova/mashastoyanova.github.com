@@ -67,6 +67,15 @@ figcaption {
 		margin: 0 auto;
 
 }
+
+.content h1 {
+		font-family: 'Inconsolata';
+		color: #4e4e4e;;
+		text-align: center;
+		font-size: 35px;
+		font-weight: bold;
+		
+}
 .content p{
 		font-family: 'Inconsolata';
 		color: #4e4e4e;;
