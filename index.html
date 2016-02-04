@@ -443,7 +443,9 @@ I find interesting.
         })
         $('.img-responsive').hover(function(){
 
-		  $('.img-responsive').css('opacity', '0.5');
+		  $(this).css('opacity', '0.5');},
+		  function () {
+		   $(this).css('opacity', '0.9');
 		  })
 		  })
         </script>
